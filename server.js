@@ -7,7 +7,7 @@ import errorHandler from './middleware/errorHandler.js'
 import cookieParser from 'cookie-parser'
 import { fileURLToPath } from 'url'
 import cors from 'cors'
-import { corsOptions } from './config/corsOptions.js'
+import corsOptions from './config/corsOptions.js'
 import connectDB from './config/dbConn.js'
 import mongoose from 'mongoose'
 
