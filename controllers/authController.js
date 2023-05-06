@@ -7,6 +7,7 @@ import jwt from 'jsonwebtoken'
 // @access Public
 
 export const login = async (req, res) => {
+  console.log(req.header('Origin'))
   const { username, password } = req.body
 
   if (!username || !password) {
